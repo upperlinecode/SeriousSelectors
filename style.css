@@ -1,25 +1,17 @@
 /* This selector should select every h1 */
-h1{
+selector_1{
   text-align: center;
 }
 
 /* This selector should select the div with the id board */
-#board {
+selector_2{
   display: grid;
   grid-template-columns: repeat(7, 50px);
   justify-content: center;
 }
 
-.team1{
-  background-color: red;
-}
-
-.team2{
-  background-color: white;
-}
-
 /* This selector should select all divs with the class cell */
-.cell {
+selector_3{
   display: block;
   height: 50px;
   border-color: black;
@@ -28,30 +20,40 @@ h1{
   font-size: 150%;
 }
 
+/* This selector should select all divs with the class team1 */
+selector_4{
+  background-color: red;
+}
+
+/* This selector should select all divs with the class team2*/
+selector_5{
+  background-color: white;
+}
+
 /* This selector should select every paragraph directly after an h1 */
-h1 + p{
+selector_6{
   text-align: center;
   color: grey;
 }
 
 /* In a different way from the selector you used above, select every p that is preceded by a div */
-div ~ p{
+selector_7{
   text-align: center;
   text-decoration: underline;
 }
 
 /* This selector should select any elements with a class of team1 when the mouse is hovering over it */
-.team1:hover {
+selector_8 {
   background: green;
 }
 
 /* This selector should select any elements with a class of team2 when the mouse is hovering over it */
-.team2:hover {
+selector_9 {
   background: yellow;
 }
 
 /* This selector should select every div inside of another div inside of another div */
-div > div > div{
+selector_10{
   display: block;
   height: 90%;
   width: 90%;
@@ -61,6 +63,6 @@ div > div > div{
 }
 
 /* This selector should select every odd numbered cell */
-.cell:nth-child(odd){
+selector_11{
   background-color: black;
 }
