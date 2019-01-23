@@ -1,68 +1,63 @@
-/* This selector should select every h1 */
+
 selector_1{
   text-align: center;
 }
 
-/* This selector should select the div with the id board */
 selector_2{
   display: grid;
   grid-template-columns: repeat(7, 50px);
   justify-content: center;
 }
 
-/* This selector should select all divs with the class cell */
 selector_3{
+  text-align: center;
+  font-size: 15px;
+}
+
+selector_4{
+  text-align: center;
+  color: grey;
+  font-size: 10px;
+}
+
+selector_5{
+  text-align: center;
+  text-decoration: underline;
+}
+
+selector_6{
+  width: 95%;
+  height: 95%;
+  margin: auto;
+  border-radius: 50%;
+  display:block;
+  border: solid grey thin;
+}
+
+selector_7{
   display: block;
   height: 50px;
+  width: 50px;
   border-color: black;
   border-style: solid;
   border-width: 1px;
   font-size: 150%;
 }
 
-/* This selector should select all divs with the class team1 */
-selector_4{
-  background-color: red;
-}
-
-/* This selector should select all divs with the class team2*/
-selector_5{
-  background-color: white;
-}
-
-/* This selector should select every paragraph directly after an h1 */
-selector_6{
-  text-align: center;
-  color: grey;
-}
-
-/* In a different way from the selector you used above, select every p that is preceded by a div */
-selector_7{
-  text-align: center;
-  text-decoration: underline;
-}
-
-/* This selector should select any elements with a class of team1 when the mouse is hovering over it */
-selector_8 {
-  background: green;
-}
-
-/* This selector should select any elements with a class of team2 when the mouse is hovering over it */
-selector_9 {
-  background: yellow;
-}
-
-/* This selector should select every div inside of another div inside of another div */
-selector_10{
+selector_8{
   display: block;
-  height: 90%;
-  width: 90%;
+  height: 95%;
+  width: 95%;
   border-radius: 50%;
   border: solid grey thin;
   margin: auto;
+  background-color: blue;
 }
 
-/* This selector should select every odd numbered cell */
-selector_11{
+selector_9{
   background-color: black;
+}
+
+selector_10{
+  border: solid yellow thin;
 }
