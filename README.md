@@ -30,16 +30,14 @@ When you first preview the html, you'll see a title, some other text and a lot o
 
 * **selector_8**: Should select every div inside of another div inside of another div. This will result in the blue pieces appearing.
 
-* **selector_9**: Should select every odd numbered element that has the class "cell" as well as a parent that has an id of "board" (with cell 1 being the first element with a class of cell that has a parent element with an id of board and so on).<details><summary>Hint for Selector 9</summary>
-<p>
+* **selector_9**: Should select every odd numbered element that has the class "cell" as well as a parent that has an id of "board" (with cell 1 being the first element with a class of cell that has a parent element with an id of board and so on).
+<details><summary>Hint for Selector 9</summary>
 *First, figure out how to select every odd number element with a particular class, then use what you used in the above two selectors to specify what the parent must be.*
-</p>
 </details>
 
-* **selector_10**: Should select all image elements when you hover your mouse over them AND all of the elements selected in selector 8 (div inside of div inside of div) when you hover your mouse over them. This will result in all of the board pieces getting a yellow border when you place your mouse over them.<details><summary>Hint for Selector 10</summary>
-<p>
+* **selector_10**: Should select all image elements when you hover your mouse over them AND all of the elements selected in selector 8 (div inside of div inside of div) when you hover your mouse over them. This will result in all of the board pieces getting a yellow border when you place your mouse over them.
+<details><summary>Hint for Selector 10</summary>
 *First, figure out how to select every image element when you hover over it. Then use this pattern to select every div inside of a div inside of a div when you hover over it. Finally, figure out how to select two types of things at the same time.*
-</p>
 </details>
 
 ## Extensions
