@@ -1,0 +1,71 @@
+/* This selector should select every h1 */
+h1{
+  text-align: center;
+}
+
+/* This selector should select the div with the id board */
+#board{
+  display: grid;
+  grid-template-columns: repeat(7, 50px);
+  justify-content: center;
+}
+
+/* This selector should select the element with a class of subtitle */
+.subtitle{
+  text-align: center;
+  font-size: 15px;
+}
+
+/* This selector should select every paragraph directly after an h2 */
+h2 + p{
+  text-align: center;
+  color: grey;
+  font-size: 10px;
+}
+
+/* In a different way from the selector you used above, select every p that is preceded by a div */
+div ~ p{
+  text-align: center;
+  text-decoration: underline;
+}
+
+/* This selector should select all images with a parent that is a div */
+div > img{
+  width: 95%;
+  height: 95%;
+  margin: auto;
+  border-radius: 50%;
+  display:block;
+  border: solid grey thin;
+}
+
+/* This selector should select all divs with the class cell */
+div > .cell{
+  display: block;
+  height: 50px;
+  width: 50px;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+  font-size: 150%;
+}
+
+/* This selector should select every div inside of another div inside of another div */
+div > div > div{
+  display: block;
+  height: 90%;
+  width: 90%;
+  border-radius: 50%;
+  border: solid grey thin;
+  margin: auto;
+  background-color: blue;
+}
+
+/* This selector should select every odd numbered cell that has a div parent*/
+#board > .cell:nth-child(odd){
+  background-color: black;
+}
+
+img:hover, div>div>div:hover{
+  border: solid yellow thin;
+}
