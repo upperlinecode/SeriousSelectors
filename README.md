@@ -8,7 +8,7 @@ If you open up your index.html file you'll see a full page of html ready to be s
 
 Your job is to work through the specifications for each of the selectors (detailed below), to achieve the final result:
 
-![](final_result_image.png)
+![](https://raw.githubusercontent.com/upperlinecode/SeriousSelectors/master/final_result_image.png)
 
 The details for each selector are written below, replace each "selector_i" with the correct selector to see styling begin to occur on the page. This [link](https://www.w3schools.com/cssref/css_selectors.asp) has some really great information to get you going. Make sure to use control f to search through the page for specific key words and feel free to search for other resources if you aren't finding what you need!
 
