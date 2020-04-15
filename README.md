@@ -24,7 +24,7 @@ Select the element with an id of "board". Once this selector is done, you'll see
 
 ### selector_3
 
-Select all elements with a class of "subtitle". Now you'll see that the "~The Best Game Ever~" text shifts to the centered of the page and the font becomes smaller.
+Select all elements with a class of "subtitle". Now you'll see that the "\~The Best Game Ever\~" text shifts to the centered of the page and the font becomes smaller.
 
 ### selector_4
 
