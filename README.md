@@ -1,18 +1,19 @@
 # CSS Selector Challenges
 
 ## The Goal
-In this lab, we're going to be taking a deep dive into CSS selectors. When styling your html it's important to be able to easily identify and select the exact elements that you want to style.
+In this lab, we're going to be taking a deep dive into CSS selectors. When styling your HTML it's important to be able to easily identify and select the exact elements that you want to style.
 
 ## The Lab
-If you open up your index.html file you'll see a full page of html ready to be styled. This file has been linked to the style.css file that you also have access to. You may notice that when you preview the html file, nothing on the page seems to actually be styled. This is because despite the fact that the styling rules have been written for you (in style.css), the selectors used to identify which elements the rules will apply to have not been.
 
-Your job is to work through the specifications for each of the selectors (detailed below), to achieve the final result:
+If you open up your index.html file you'll see a full page of HTML ready to be styled. This file has been linked to the style.css file that you also have access to. You may notice that when you preview the HTML file, nothing on the page seems to actually be styled. This is because despite the fact that the styling rules have been written for you (in style.css), the selectors used to identify which elements the rules will apply to have not been.
+
+Your job is to create each of the selectors (detailed below) **editing ONLY the css, not the HTML** to achieve this final result:
 
 ![final checker board](https://raw.githubusercontent.com/upperlinecode/SeriousSelectors/master/final_result_image.png)
 
-The details for each selector are written below, replace each "selector_i" with the correct selector to see styling begin to occur on the page. This [link](https://www.w3schools.com/cssref/css_selectors.asp) has some really great information to get you going, and there's also a very fun game called "sushi selector" which goes into even more depth than this one. Make sure to use control f to search through the page for specific key words and feel free to search for other resources if you aren't finding what you need!
+The details for each selector are written below, replace each "selector_i" with the correct selector to see styling begin to occur on the page. You haven't yet been taught enough about CSS selectors to do this all, so reference some [documentation](https://www.w3schools.com/cssref/css_selectors.asp) for some really great information to get you going - **you won't be able to get past selector_3 without referencing the documentation**. Make sure to use control f to search through the page for specific key words and feel free to search for other resources if you aren't finding what you need!
 
-When you first preview the html, you'll see a title, some other text and a lot of red. Don't worry, by the end of this lab your page will be exactly like the game we're trying to build!
+When you first preview the HTML, you'll see a title, some other text and a lot of red. Don't worry, by the end of this lab your page will be exactly like the game we're trying to build!
 
 ### selector_1
 
@@ -40,7 +41,7 @@ Select all image elements that have a parent that is a div. When this selector i
 
 ### selector_7
 
-Select all elements with a class of "cell" that have a div as a parent (not just all elements with a class of cell, since according to the html, the board is also just a larger cell).
+Select all elements with a class of "cell" that have a parent div element (not just all elements with a class of cell, since according to the html, the board is also just a larger cell).
 
 The correct selector will result in the outlines of all of the cells of the board correctly displaying. You will also be able to see all of the red board pieces. The board should still be centered.
 
@@ -67,5 +68,5 @@ Select all image elements when you hover your mouse over them AND all of the ele
 ## Extensions
 Now that your board is looking great and you've become a css selector master, here are some extensions to keep improving your page!
 1. Add and change style rules so that the background of the board alternates between three different colors. (For example, a white cell, then a black cell, then a purple cell repeated across the entire board).
-2. Add html to the index.html file that gives the person looking at your page all of the rules of checkers. This can be done however you want to. Then write your own style rules to make this section of the page look great.
-3. Research a selector that we didn't use in this lab, then find a way to use it. Feel free to add html as needed to make the selector applicable.
+2. Add HTML to the index.html file that gives the person looking at your page all of the rules of checkers. This can be done however you want to. Then write your own style rules to make this section of the page look great.
+3. Research a selector that we didn't use in this lab, then find a way to use it. Feel free to add HTML as needed to make the selector applicable.
