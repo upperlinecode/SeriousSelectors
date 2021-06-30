@@ -1,5 +1,7 @@
 # CSS Selector Challenges
 
+[![Run on Repl.it](https://repl.it/badge/github/upperlinecode/SeriousSelectors)](https://repl.it/github/upperlinecode/SeriousSelectors)
+
 ## The Goal
 In this lab, we're going to be taking a deep dive into CSS selectors. When styling your HTML it's important to be able to easily identify and select the exact elements that you want to style.
 
