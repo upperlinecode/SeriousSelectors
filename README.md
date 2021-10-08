@@ -39,13 +39,13 @@ Select every paragraph element that is directly preceded by a div - bonus points
 
 ### selector_6
 
-Select all image elements that have a parent that is a div. When this selector is correct, you'll see that the board area becomes a very small jagged grey line, this will be fixed soon.
+Select all image elements that have a parent that is a div. When this selector is correct, the two red chunks will disappear and you'll be able to see all of the red board pieces.
 
 ### selector_7
 
 Select all elements with a class of "cell" that have a parent div element (not just all elements with a class of cell, since according to the html, the board is also just a larger cell).
 
-The correct selector will result in the outlines of all of the cells of the board correctly displaying. You will also be able to see all of the red board pieces. The board should still be centered.
+The correct selector will result in the outline of all of the cells of the board correctly displaying. The board should be centered.
 
 ### selector_8
 
@@ -53,7 +53,7 @@ Select every div inside of another div inside of another div. This will result i
 
 ### selector_9
 
-Select every odd numbered element that has the class "cell" as well as a parent that has an id of "board" (with cell 1 being the first element with a class of cell that has a parent element with an id of board and so on).
+Select every odd numbered element that has the class "cell" as well as a parent that has an id of "board" (with cell 1 being the first element with a class of cell that has a parent element with an id of board and so on). This will result in the black tile pieces appearing on the board. 
 
 <details><summary>Hint for Selector 9</summary>
 *First, figure out how to select every odd number element with a particular class, then use what you used in the above two selectors to specify what the parent must be.*
